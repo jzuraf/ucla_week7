@@ -1,6 +1,10 @@
 body {
   font-family: sans-serif;
-  margin: 20px; }
+  font-family: "Andale Mono", monospace;
+  margin: 20px 20% 20px 20%;
+  text-align: center;
+  background-image: url("../images/money.png");
+  background-size: cover; }
   body .board {
     background: yellow;
     width: 300px;
@@ -15,5 +19,28 @@ body {
     body .square.green {
       background: green; }
   body .animal {
-    width: 100px;
+    width: 500px;
     height: auto; }
+  body h1 {
+    font-family: "Andale Mono", monospace;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    display: inline;
+    width: 200px;
+    text-align: center; }
+  body .card {
+    background-color: white;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px 38px;
+    min-width: 550px; }
+  body .info {
+    padding-left: 5%;
+    width: auto;
+    text-align: left; }
+  body .mini {
+    width: 150px;
+    height: 150px; }
+  body .more {
+    padding-left: 25px; }
